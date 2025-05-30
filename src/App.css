@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 } */
+
+.scroll-container {
+  scrollbar-width: none; /* Firefox ke liye */
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 0px;
+}
+
+.scroll-container:hover::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-container:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 4px;
+}

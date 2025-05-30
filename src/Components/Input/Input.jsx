@@ -12,7 +12,7 @@ const Input = ({
   onChange = () => {},
 }) => {
   return (
-    <div className={`w-1/2 ${className}`}>
+    <div className={` ${className}`}>
       <label for={fname} className="block  text-sm font-medium text-gray-800 ">
         {label}
       </label>
